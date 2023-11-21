@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/woodie.jpg);
+} 
+
+header {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    text-align: left;
+   background-image: url(img/woodie.jpg);
+   font-family: Cinzel Decorative;
+   font-size: 15px;
+}
+
+.head2{
+ padding: 10px;
+display: flex;
+flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+
+a{
+  margin-right: 25px;
+  text-decoration: none; 
+ text-align: right;
+ color: white;
+justify-content: flex-end;
+
+}
+
+span{
+   
+    color: black;
+    padding: 0px;
+    text-align: center;
+}
+.h2{
+text-align: center;
+font-family: Pacifico;
+}
+.p1{
+text-align: center;
+font-family: Simonetta;
+}
+article{
+background-color: grey;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px; 
+    padding: 20px;
+    border: 10px solid white;
+    border-radius: 5px; 
+    background-color: white;
+    text-align: left;
+    background-image: url(img/wodoo.jpg);
+    color: white;
+}
+.sec1{
+    background-color: gray;
+    text-align: left;
+    border-bottom: 50px;
+ border-top: 50px;
+ border-color: green;
+}
+
+.sec2{
+ border-bottom: 50px;
+ border-top: 50px;
+ border-color: gold;
+}
+
+.sec3{
+    background-color: gray;
+    text-align: left;
+    border-bottom: 50px;
+ border-top: 50px;
+ border-color: green;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
